@@ -1,0 +1,51 @@
+package classesWithAttributes;
+
+public class Product {
+	//attribute veya field
+	private int id;
+	private String name;
+	private	String description;
+	private	double price;
+	private	int stockAmount;
+	private String renk;
+	private String kod;
+	//getter
+	public int getId() {
+		return id;
+	}
+	//setter
+	public void setId (int id) {
+		this.id = id;
+	}
+	private String get_name() {
+		return get_name();
+	}
+	private void set_name(String name) {
+		this.set_name(name);
+	}
+	private String get_description() {
+		return get_description();
+	}
+	private void set_description(String description) {
+		this.set_description(description);
+	}
+	private double get_price() {
+		return get_price();
+	}
+	private void set_price(double price) {
+		this.set_price(price);
+	}
+	private int get_stockAmount() {
+		return get_stockAmount();
+	}
+	private void set_stockAmount(int stockAmount) {
+		this.set_stockAmount(stockAmount);
+	}
+	private String get_renk() {
+		return renk;
+	}
+	private void set_renk(String renk) {
+		this.renk = renk;
+	}
+		
+}
